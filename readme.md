@@ -7,6 +7,8 @@ Vaulti.co will provide you some very simple routes to get exactly what you need.
 In order to improve reactivity and to be fast, the request are cached for 10 minutes.  
 You can know when was the last update with the `_VAULTI_LAST_ACCESS_` key, and force a refresh with `?revalidate=true`.
 
+_But why is it a react app ?!_ : Because I am lazy and I needed to boostrat this quickly. It's using the API feature of next+vercel, so it's basically a nodeJs server (with extra step, but not for me)
+
 ## Routes
 For now there is only one route (haha, great proxy) :
 
