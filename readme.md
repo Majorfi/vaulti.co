@@ -10,9 +10,9 @@ You can know when was the last update with the `_VAULTI_LAST_ACCESS_` key, and f
 ## Routes
 For now there is only one route (haha, great proxy) :
 
-### Get a specific Vault
-▸ `GET vaulti.co/api/_THE_VAULT_ADDRESS_`
-▸ Params: [none | `?revalidate=true` | `?revalidate=false`]
+### Get a specific Vault 1️⃣
+▸ Request: `GET vaulti.co/api/_THE_VAULT_ADDRESS_`  
+▸ Params: [none | `?revalidate=true` | `?revalidate=false`]  
 
 ```bash
 curl -X GET "https://vaulti.co/api/0x671a912C10bba0CFA74Cfc2d6Fba9BA1ed9530B2" -H  "accept: application/json"
