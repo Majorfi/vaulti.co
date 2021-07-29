@@ -15,6 +15,7 @@ For now there is only one route (haha, great proxy) :
 ### Get a specific Vault 1️⃣
 ▸ Request: `GET vaulti.co/api/_THE_VAULT_ADDRESS_`  
 ▸ Params: [none | `?revalidate=true` | `?revalidate=false`]  
+▸ Example: [Get 1 Vault](https://vaulti.co/api/0x671a912C10bba0CFA74Cfc2d6Fba9BA1ed9530B2)  
 
 ```bash
 curl -X GET "https://vaulti.co/api/0x671a912C10bba0CFA74Cfc2d6Fba9BA1ed9530B2" -H  "accept: application/json"
@@ -34,6 +35,7 @@ axios.get('https://vaulti.co/api/0x671a912C10bba0CFA74Cfc2d6Fba9BA1ed9530B2')
 ### Get a list of specific Vaults 🔁
 ▸ Request: `GET vaulti.co/api/_THE_VAULT_0_ADDRESS_,_THE_VAULT_1_ADDRESS_,_THE_VAULT_N_ADDRESS_`  
 ▸ Params: [none | `?revalidate=true` | `?revalidate=false`]  
+▸ Example: [Get 2 Vaults](https://vaulti.co/api/0x671a912C10bba0CFA74Cfc2d6Fba9BA1ed9530B2,0xe9Dc63083c464d6EDcCFf23444fF3CFc6886f6FB)
 
 ```bash
 curl -X GET "https://vaulti.co/api/0x671a912C10bba0CFA74Cfc2d6Fba9BA1ed9530B2,0xe9Dc63083c464d6EDcCFf23444fF3CFc6886f6FB" -H  "accept: application/json"
